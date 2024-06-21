@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/brunomvsouza/ynab.go/api"
+	"github.com/SphericalPotatoInVacuum/ynab.go/api"
 
-	"github.com/brunomvsouza/ynab.go"
+	"github.com/SphericalPotatoInVacuum/ynab.go"
 )
 
 func ExampleService_GetBudget() {

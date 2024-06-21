@@ -4,13 +4,13 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/brunomvsouza/ynab.go/api"
+	"github.com/SphericalPotatoInVacuum/ynab.go/api"
 
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/jarcoal/httpmock.v1"
 
-	"github.com/brunomvsouza/ynab.go"
-	"github.com/brunomvsouza/ynab.go/api/account"
+	"github.com/SphericalPotatoInVacuum/ynab.go"
+	"github.com/SphericalPotatoInVacuum/ynab.go/api/account"
 )
 
 func TestService_GetAccounts(t *testing.T) {
